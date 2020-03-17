@@ -7,7 +7,7 @@ var marketcontextschema = new mongoose.Schema({
     DimId:Number,
     ChannelId:Number,
     MetricId:Number , 
-    Value:Number
-});
+    Value:Number  
+}); 
 
-module.exports = mongoose.model('t_marketcontext_1', marketcontextschema);;
+module.exports = mongoose.model('t_marketcontext_1ss', marketcontextschema);;
